@@ -27,6 +27,10 @@ public class Calculadora {
         return a * b;
     }
     float division(float a, float b){
+        if (b==0){
+            System.out.println("no se puede divider");
+            return -1;
+        }
         return a / b;
     }
     double potencia(double a, double b){
